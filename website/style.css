@@ -1,90 +1,111 @@
 body{
-    background: #fffff8;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', "Helvetica", "Arial", 'sans-serif';
 }
 
-#app{
-    display: grid;
-    grid-auto-rows: minmax(150px, auto);
-    /* grid-template-columns:  */
-    height:100vh;
-    background: #f23557;
-    color: #f0d43a;
-    justify-content: center;
-    grid-gap: 1em;
-    font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+.app-body{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: grey;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 4px 4px 4px #444;
+	
+}
+
+h1{
+	padding-top: 10px;
+}
+
+#zip{
+	width: 300px;
+	height: 30px;
+	margin: 5px;
+	box-shadow: 4px 4px 4px 2px #666;
+}
+
+#feelings{
+	width: 300px;
+	height: 30px;
+	margin: 5px;
+	box-shadow: 4px 4px 4px 2px #666;
+}
+
+.myInput{
+	width: 300px;
+	height: 30px;
 }
 
 .holder{
-
+	width: 300px;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
 
 .entry{
-    background: rgba(59, 74, 107, .4);
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+    background: whitesmoke;
+	width: 500px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	box-shadow: 4px 4px 4px 2px #666;
 }
 
-#entryHolder{
+.recent-entry-title{
+	height: 50px;
+	width: 500px;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+		
 
 }
-
-#date{
-
+button{
+    width: 250px;
+    height: 50px;
+    background: #3D3939;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', "Helvetica", "Arial", 'sans-serif';
+    box-shadow: 2px 4px 5px #444;
+	margin: 10px;
+	transition-duration: 0.5s;
+	border: none;
 }
 
-#temp{
-
+button:hover {
+  background-color: black;
+  color: whitesmoke;
 }
 
-#content{
-
-}
-
-.headline {
-
-}
-.title{
-
-}
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
 label{
-    display:block;
-    font-size: 27px;
+    font-size: 25px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
 }
 
 input{
-    display:block;
     height: 60px;
     width: 320px;
-    background:#22b2da;
-    color: #f0d43a;
+    background:whitesmoke;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', "Helvetica", "Arial", 'sans-serif';
     border: none;
-}
-
-button{
-    width: 400px;
-    height: 100px;
-    background: #3b4a6b;
-    color: #f0d43a;
-    font-size: 26px;
-    font-family: 'Oswald', sans-serif;
-    border: none;
-    box-shadow: 2px 4px 5px #444;
-}
-h1{
-    font-size: 36px;
 }
 
 textarea{
-    background:#22b2da;
-    color: #f0d43a;
+    background: whitesmoke;
+    color: black;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', "Helvetica", "Arial", 'sans-serif';
 }
-/* Reset style for HTML element on active to have no border*/
+
+
+
+/*Reset style for HTML element on active to have no border*/
 input:focus,
 select:focus,
 textarea:focus,
@@ -92,20 +113,20 @@ button:focus {
     outline: none;
 }
 /* Style for Placeholder Text*/
-::placeholder { /* Firefox, Chrome, Opera */ 
+::placeholder {  Firefox, Chrome, Opera  
     color: #f0d43a; 
-    font-family: 'Oswald', sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', "Helvetica", "Arial", 'sans-serif';
 
 } 
   
-:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+:-ms-input-placeholder {  Internet Explorer 10-11  
     color: #f0d43a; 
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', "Helvetica", "Arial", 'sans-serif';
 
 } 
   
-::-ms-input-placeholder { /* Microsoft Edge */ 
-    color: #f0d43a; 
-    font-family: 'Oswald', sans-serif;
 
+::-ms-input-placeholder {  Microsoft Edge  
+    color: #f0d43a; 
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', "Helvetica", "Arial", 'sans-serif';
 } 
