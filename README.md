@@ -67,6 +67,10 @@ In the file app.js, the element with the id of generate has an addEventListener(
 Sets the properties of existing HTML elements from the DOM using Vanilla JavaScript.
 Included in the async function to retrieve that app’s data on the client side, existing DOM elements have their innerHTML properties dynamically set according to data returned by the app route.
 
+### How to run the app:
+
+* npm install
+* npm run start
 
 ## Author
 ### Diana Rugea
