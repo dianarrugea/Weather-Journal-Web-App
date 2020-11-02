@@ -72,6 +72,11 @@ Included in the async function to retrieve that app’s data on the client side,
 * npm install
 * npm run start
 
+## Preview of the app:
+![weatherly1](https://user-images.githubusercontent.com/64359516/97902254-3d121700-1d35-11eb-98a6-0b280dc51fbc.JPG)
+
+## Once the user has selected a US zipcode the below details should come up:
+![weatherly2](https://user-images.githubusercontent.com/64359516/97902432-83677600-1d35-11eb-9fa3-144444ee75ef.JPG)
 ## Author
 ### Diana Rugea
 
